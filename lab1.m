@@ -45,3 +45,12 @@ fprintf('Max value: %.2f\n', max_val);
 fprintf('Min value: %.2f\n', min_val);
 fprintf('Mean value: %.2f\n', mean_val);
 fprintf('Standard deviation: %.2f\n\n', std_val);
+
+
+%% Boxplot
+figure;
+boxplot(light);
+ylabel('Light Intensity');
+title(['Boxplot - ' filename]);
+grid on;
+
